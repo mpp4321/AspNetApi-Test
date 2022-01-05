@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/notgaystop/Documents/AspNetApi/AspNetApi.csproj": {}
+  },
+  "projects": {
+    "/home/notgaystop/Documents/AspNetApi/AspNetApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/notgaystop/Documents/AspNetApi/AspNetApi.csproj",
+        "projectName": "AspNetApi",
+        "projectPath": "/home/notgaystop/Documents/AspNetApi/AspNetApi.csproj",
+        "packagesPath": "/home/notgaystop/.nuget/packages/",
+        "outputPath": "/home/notgaystop/Documents/AspNetApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/notgaystop/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AttributeRouting": {
+              "target": "Package",
+              "version": "[3.4.2, )"
+            },
+            "CoinpaprikaAPI": {
+              "target": "Package",
+              "version": "[1.3.21103, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/152/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

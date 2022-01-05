@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "dgSpecHash": "/AADDGDX585UYh0stKyg5RMOEEhCMLfn8eTT8gLJKlZfOzfNUbxxFJ4xVK0ra5jBvk5SyHJMTIxT+2MLnIPq2Q==",
+  "success": true,
+  "projectFilePath": "/home/notgaystop/Documents/AspNetApi/AspNetApi.csproj",
+  "expectedPackageFiles": [
+    "/home/notgaystop/.nuget/packages/attributerouting/3.4.2/attributerouting.3.4.2.nupkg.sha512",
+    "/home/notgaystop/.nuget/packages/attributerouting.core/3.4.2/attributerouting.core.3.4.2.nupkg.sha512",
+    "/home/notgaystop/.nuget/packages/attributerouting.core.web/3.4.2/attributerouting.core.web.3.4.2.nupkg.sha512",
+    "/home/notgaystop/.nuget/packages/coinpaprikaapi/1.3.21103/coinpaprikaapi.1.3.21103.nupkg.sha512",
+    "/home/notgaystop/.nuget/packages/newtonsoft.json/12.0.1/newtonsoft.json.12.0.1.nupkg.sha512",
+    "/home/notgaystop/.nuget/packages/webactivator/1.0.0/webactivator.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AttributeRouting 3.4.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AttributeRouting",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AttributeRouting.Core 3.4.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AttributeRouting.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AttributeRouting.Core.Web 3.4.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AttributeRouting.Core.Web",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebActivator 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebActivator",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

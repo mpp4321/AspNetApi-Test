@@ -1,0 +1,299 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "AttributeRouting/3.4.2": {
+        "type": "package",
+        "dependencies": {
+          "AttributeRouting.Core": "3.4.2",
+          "AttributeRouting.Core.Web": "3.4.2",
+          "WebActivator": "1.0.0"
+        },
+        "compile": {
+          "lib/net40/AttributeRouting.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net40/AttributeRouting.Web.Mvc.dll": {}
+        }
+      },
+      "AttributeRouting.Core/3.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/AttributeRouting.dll": {}
+        },
+        "runtime": {
+          "lib/net40/AttributeRouting.dll": {}
+        }
+      },
+      "AttributeRouting.Core.Web/3.4.2": {
+        "type": "package",
+        "dependencies": {
+          "AttributeRouting.Core": "3.4.2"
+        },
+        "compile": {
+          "lib/net40/AttributeRouting.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net40/AttributeRouting.Web.dll": {}
+        }
+      },
+      "CoinpaprikaAPI/1.3.21103": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/CoinpaprikaAPI.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CoinpaprikaAPI.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "WebActivator/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/WebActivator.dll": {}
+        },
+        "runtime": {
+          "lib/WebActivator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AttributeRouting/3.4.2": {
+      "sha512": "GPFiSPGng5+OgkaKBPKlfLDpSiPO/WFOsCjJLWmAbkEbjsxcV2oSG/va6xtWKuA2eqCMFJf6F+sv+klZ+ZHBjg==",
+      "type": "package",
+      "path": "attributerouting/3.4.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "attributerouting.3.4.2.nupkg.sha512",
+        "attributerouting.nuspec",
+        "content/App_Start/AttributeRouting.cs.pp",
+        "content/App_Start/AttributeRouting.vb.pp",
+        "content/web.config.transform",
+        "lib/net40/AttributeRouting.Web.Mvc.dll",
+        "lib/net40/AttributeRouting.Web.Mvc.xml",
+        "readme.txt",
+        "tools/install.ps1"
+      ]
+    },
+    "AttributeRouting.Core/3.4.2": {
+      "sha512": "9d4bXMGKhutpufSfeayFZbTGESSZzDdHn2mkXZ/R4ZXRweRPLeo+aDIC95NxJwAdCcb8YLQCmLp6LbCAb7biZw==",
+      "type": "package",
+      "path": "attributerouting.core/3.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "attributerouting.core.3.4.2.nupkg.sha512",
+        "attributerouting.core.nuspec",
+        "lib/net40/AttributeRouting.dll",
+        "lib/net40/AttributeRouting.xml"
+      ]
+    },
+    "AttributeRouting.Core.Web/3.4.2": {
+      "sha512": "G+HgV58iXOQ6mvN8MI9J6lAvplvKcGnkntQqISNS6Uh18QAxxDjOEVaJCL3NmJP0WuNbpp86r8ATje9QfGZE5A==",
+      "type": "package",
+      "path": "attributerouting.core.web/3.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "attributerouting.core.web.3.4.2.nupkg.sha512",
+        "attributerouting.core.web.nuspec",
+        "lib/net40/AttributeRouting.Web.dll",
+        "lib/net40/AttributeRouting.Web.xml"
+      ]
+    },
+    "CoinpaprikaAPI/1.3.21103": {
+      "sha512": "SsrAneqjinwGOm8CDzUfCXi2PB0HTja2yE1PiufDYQNH32dKedcxuYhLjd7GjdpzxpJqLuaOh4aeWrwi3HYQtg==",
+      "type": "package",
+      "path": "coinpaprikaapi/1.3.21103",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "coinpaprikaapi.1.3.21103.nupkg.sha512",
+        "coinpaprikaapi.nuspec",
+        "lib/netstandard2.0/CoinpaprikaAPI.dll"
+      ]
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.pdb",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.pdb",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.pdb",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.pdb",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "WebActivator/1.0.0": {
+      "sha512": "9svr86Y6l/moHfEEBVbiXNhCn82AFHSeBuCcdIkvMVk3ss2+rKyi6IWDlErbJJUdEUHCljM1dG+S8iLVFeBaGQ==",
+      "type": "package",
+      "path": "webactivator/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/WebActivator.dll",
+        "lib/WebActivator.pdb",
+        "webactivator.1.0.0.nupkg.sha512",
+        "webactivator.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "AttributeRouting >= 3.4.2",
+      "CoinpaprikaAPI >= 1.3.21103"
+    ]
+  },
+  "packageFolders": {
+    "/home/notgaystop/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/notgaystop/Documents/AspNetApi/AspNetApi.csproj",
+      "projectName": "AspNetApi",
+      "projectPath": "/home/notgaystop/Documents/AspNetApi/AspNetApi.csproj",
+      "packagesPath": "/home/notgaystop/.nuget/packages/",
+      "outputPath": "/home/notgaystop/Documents/AspNetApi/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/notgaystop/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "AttributeRouting": {
+            "target": "Package",
+            "version": "[3.4.2, )"
+          },
+          "CoinpaprikaAPI": {
+            "target": "Package",
+            "version": "[1.3.21103, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/152/sdk/6.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AttributeRouting 3.4.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AttributeRouting",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AttributeRouting.Core 3.4.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AttributeRouting.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AttributeRouting.Core.Web 3.4.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AttributeRouting.Core.Web",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebActivator 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebActivator",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
