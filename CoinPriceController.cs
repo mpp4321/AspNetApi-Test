@@ -15,8 +15,19 @@ namespace AspNetApi.Controllers {
         
         [HttpGet("get/{name:required}")]
         public async Task<IActionResult> GetCoinInfo(string name) {
-            var coins = await coin_client.GetLatestOhlcForCoinAsync(name, "USD"); 
-            if(coins.Value.Count == 0) {
+            var coins = await coin_client.GetLatestOhlcForCoinAsync(name, "USD");
+            if(coins == null || coins.Value == null)
+            {
+                return StatusCode(500);
+            }
+            return Ok(coins.Value);
+        }
+
+        [HttpGet("getallids")]
+        public async Task<IActionResult> GetAllCoinIds() {
+            var coins = await coin_client.GetCoinsAsync();
+            if(coins == null || coins.Value == null)
+            {
                 return StatusCode(500);
             }
             return Ok(coins.Value);
